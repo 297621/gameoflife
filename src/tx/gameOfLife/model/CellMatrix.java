@@ -39,6 +39,10 @@ public class CellMatrix {
         this.matrix = matrix;
     }
 
+    public CellMatrix() {
+
+    }
+
     /**
      * 上一个状态到下一个状态的转移
      * 根据规则可以总结得出两条规则:
